@@ -2,10 +2,12 @@
   "id": 1762929395,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-01",
+    "date:cessation_upper": "2022-02-01",
     "date:inception_lower": "2022-02-01",
     "date:inception_upper": "2022-02-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-01",
+    "edtf:cessation": "2022-02-01T05:36:33Z",
+    "edtf:inception": "2022-02-01T04:00:00Z",
     "flysfo:actual_timestamp": 1643760000,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "14365538"
+    },
     "wof:country": "US",
     "wof:created": 1643818461,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -45,12 +52,12 @@
     ],
     "wof:id": 1762929395,
     "wof:involves": [
+      1528104583,
       102533269,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1643818461,
+    "wof:lastmodified": 1643818758,
     "wof:name": "DL9979 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
