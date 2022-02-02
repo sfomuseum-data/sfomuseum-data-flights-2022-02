@@ -1,0 +1,69 @@
+{
+  "id": 1762929385,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-02-01",
+    "date:inception_upper": "2022-02-01",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-02-01",
+    "flysfo:actual_timestamp": 1643760000,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2022-02-01",
+    "flysfo:estimated_timestamp": 1643798880,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8839",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PHX",
+    "flysfo:scheduled_timestamp": 1643794200,
+    "flysfo:timestamp": 1643798880,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.432684,-112.017392,37.617990",
+    "geom:latitude": 35.525337,
+    "geom:longitude": -117.19416749999999,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102526751,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220201-D-DAL-8839",
+    "sfomuseum:flight_number": [
+      "DAL8839",
+      "DL8839"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1643818459,
+    "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1762929385
+      }
+    ],
+    "wof:id": 1762929385,
+    "wof:involves": [
+      102526751,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1643818459,
+    "wof:name": "DL8839 (SFO-PHX)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.432684,
+    -112.017392,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}
+}
