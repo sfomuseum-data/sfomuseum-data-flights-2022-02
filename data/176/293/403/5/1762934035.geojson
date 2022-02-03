@@ -2,10 +2,12 @@
   "id": 1762934035,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-02",
+    "date:cessation_upper": "2022-02-02",
     "date:inception_lower": "2022-02-02",
     "date:inception_upper": "2022-02-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-02",
+    "edtf:cessation": "2022-02-02T03:30:50-08:00",
+    "edtf:inception": "2022-02-02T13:49:00Z",
     "flysfo:actual_timestamp": 1643830680,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N425AN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14386122",
+      "swim:gufi": "KN42936400"
+    },
     "wof:country": "US",
     "wof:created": 1643904080,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1762934035,
     "wof:involves": [
-      102527513,
-      102529403,
       1159283849,
-      1745882175
+      1745882175,
+      1377564297,
+      102527513,
+      102529403
     ],
-    "wof:lastmodified": 1643904080,
+    "wof:lastmodified": 1643905315,
     "wof:name": "AA2661 (PHL-SFO)",
     "wof:parent_id": 1745882175,
     "wof:placetype": "custom",

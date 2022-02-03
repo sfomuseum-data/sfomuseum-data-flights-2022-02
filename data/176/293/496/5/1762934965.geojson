@@ -2,10 +2,12 @@
   "id": 1762934965,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-02",
-    "date:inception_upper": "2022-02-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-02",
+    "date:cessation_lower": "2022-02-02",
+    "date:cessation_upper": "2022-02-02",
+    "date:inception_lower": "2022-02-03",
+    "date:inception_upper": "2022-02-03",
+    "edtf:cessation": "2022-02-02T10:05:36-08:00",
+    "edtf:inception": "2022-02-03T00:32:00Z",
     "flysfo:actual_timestamp": 1643854200,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N127DU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14362269",
+      "swim:gufi": "KU84361403"
+    },
     "wof:country": "US",
     "wof:created": 1643904368,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762934965,
     "wof:involves": [
+      1745882201,
+      1528104583,
       102527513,
       102527363,
-      1159284261,
-      1745882201
+      1159284261
     ],
-    "wof:lastmodified": 1643904368,
+    "wof:lastmodified": 1643905316,
     "wof:name": "DL2470 (SLC-SFO)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",
