@@ -2,10 +2,12 @@
   "id": 1762942791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-03",
+    "date:cessation_upper": "2022-02-03",
     "date:inception_lower": "2022-02-03",
     "date:inception_upper": "2022-02-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-03",
+    "edtf:cessation": "2022-02-03T05:29:15-08:00",
+    "edtf:inception": "2022-02-03T20:25:00Z",
     "flysfo:actual_timestamp": 1643924040,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N826UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14500977"
+    },
     "wof:country": "US",
     "wof:created": 1643991008,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1762942791,
     "wof:involves": [
+      1159289407,
       102527513,
       102534161,
       1159285413,
       1745882249
     ],
-    "wof:lastmodified": 1643991008,
+    "wof:lastmodified": 1643991710,
     "wof:name": "UA2201 (SNA-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

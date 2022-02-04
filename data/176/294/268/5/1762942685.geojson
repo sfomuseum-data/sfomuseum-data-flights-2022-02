@@ -2,10 +2,12 @@
   "id": 1762942685,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-03",
+    "date:cessation_upper": "2022-02-03",
     "date:inception_lower": "2022-02-03",
     "date:inception_upper": "2022-02-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-03",
+    "edtf:cessation": "2022-02-03T23:05:00Z",
+    "edtf:inception": "2022-02-03T22:18:00Z",
     "flysfo:actual_timestamp": 1643929860,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527337,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14510723",
+      "swim:gufi": "KL71775500"
+    },
     "wof:country": "US",
     "wof:created": 1643990981,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762942685,
     "wof:involves": [
+      1159292085,
       102527513,
       102527337,
       1159285413,
       1745882251
     ],
-    "wof:lastmodified": 1643990981,
+    "wof:lastmodified": 1643991708,
     "wof:name": "UA1402 (SBA-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

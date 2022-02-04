@@ -2,10 +2,12 @@
   "id": 1762941503,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-03",
-    "date:inception_upper": "2022-02-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-03",
+    "date:cessation_lower": "2022-02-04",
+    "date:cessation_upper": "2022-02-04",
+    "date:inception_lower": "2022-02-04",
+    "date:inception_upper": "2022-02-04",
+    "edtf:cessation": "2022-02-04T06:46:00Z",
+    "edtf:inception": "2022-02-04T00:20:00Z",
     "flysfo:actual_timestamp": 1643957700,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N402AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14441037"
+    },
     "wof:country": "US",
     "wof:created": 1643990673,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762941503,
     "wof:involves": [
-      102527513,
       102530741,
       1159283813,
-      1745882113
+      1745882113,
+      1377564285,
+      102527513
     ],
-    "wof:lastmodified": 1643990673,
+    "wof:lastmodified": 1643991716,
     "wof:name": "AS1359 (BOS-SFO)",
     "wof:parent_id": 1745882113,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1762942055,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-03",
+    "date:cessation_upper": "2022-02-03",
     "date:inception_lower": "2022-02-03",
     "date:inception_upper": "2022-02-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-03",
+    "edtf:cessation": "2022-02-03T08:09:31Z",
+    "edtf:inception": "2022-02-03T06:03:00Z",
     "flysfo:actual_timestamp": 1643876040,
     "flysfo:airline": "F9",
     "flysfo:date": "2022-02-03",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14454526"
+    },
     "wof:country": "US",
     "wof:created": 1643990820,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159284401,
       1745882389
     ],
-    "wof:lastmodified": 1643990820,
+    "wof:lastmodified": 1643991714,
     "wof:name": "F9663 (DEN-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",
