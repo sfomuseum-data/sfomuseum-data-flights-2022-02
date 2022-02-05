@@ -2,10 +2,12 @@
   "id": 1762951381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-04",
+    "date:cessation_upper": "2022-02-04",
     "date:inception_lower": "2022-02-04",
     "date:inception_upper": "2022-02-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-04",
+    "edtf:cessation": "2022-02-04T21:57:00Z",
+    "edtf:inception": "2022-02-04T20:55:00Z",
     "flysfo:actual_timestamp": 1644007500,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N464AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14578437"
+    },
     "wof:country": "US",
     "wof:created": 1644077679,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762951381,
     "wof:involves": [
+      1745882105,
+      1377564285,
       102533795,
       102527513,
-      1159283813,
-      1745882105
+      1159283813
     ],
-    "wof:lastmodified": 1644077679,
+    "wof:lastmodified": 1644078093,
     "wof:name": "AS320 (SFO-LAX)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",
