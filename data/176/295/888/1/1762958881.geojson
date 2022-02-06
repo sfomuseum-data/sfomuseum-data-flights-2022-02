@@ -2,10 +2,12 @@
   "id": 1762958881,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-06",
+    "date:cessation_upper": "2022-02-06",
     "date:inception_lower": "2022-02-05",
     "date:inception_upper": "2022-02-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-05",
+    "edtf:cessation": "2022-02-06T03:36:00Z",
+    "edtf:inception": "2022-02-05T08:24:30-08:00",
     "flysfo:actual_timestamp": 1644105540,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N813UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO80303700"
+    },
     "wof:country": "US",
     "wof:created": 1644164321,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762958881,
     "wof:involves": [
+      1159289407,
       102534097,
       102527513,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1644164321,
+    "wof:lastmodified": 1644164432,
     "wof:name": "UA2305 (SFO-IAH)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

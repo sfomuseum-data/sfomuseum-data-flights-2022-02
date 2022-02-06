@@ -2,10 +2,12 @@
   "id": 1762958963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-05",
+    "date:cessation_upper": "2022-02-05",
     "date:inception_lower": "2022-02-05",
     "date:inception_upper": "2022-02-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-05",
+    "edtf:cessation": "2022-02-05T23:32:00Z",
+    "edtf:inception": "2022-02-05T03:07:06-08:00",
     "flysfo:actual_timestamp": 1644087180,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37528",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14644223",
+      "swim:gufi": "KO56495700"
+    },
     "wof:country": "US",
     "wof:created": 1644164342,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -84,9 +98,10 @@
       102528817,
       102527513,
       1159285413,
-      1745882317
+      1745882317,
+      1528104577
     ],
-    "wof:lastmodified": 1644164342,
+    "wof:lastmodified": 1644164433,
     "wof:name": "UA487 (SFO-IAD)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",
