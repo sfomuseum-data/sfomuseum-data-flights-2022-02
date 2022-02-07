@@ -2,10 +2,12 @@
   "id": 1762962735,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-06",
+    "date:cessation_upper": "2022-02-06",
     "date:inception_lower": "2022-02-06",
     "date:inception_upper": "2022-02-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-06",
+    "edtf:cessation": "2022-02-06T22:53:08Z",
+    "edtf:inception": "2022-02-06T11:42:00Z",
     "flysfo:actual_timestamp": 1644188400,
     "flysfo:airline": "SK",
     "flysfo:date": "2022-02-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 46.622809000000004,
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
+    "icao:aircraft": "A333",
     "icao:airline": "SAS",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102544207,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "LNRKU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14684432"
+    },
     "wof:country": "US",
     "wof:created": 1644250155,
     "wof:geomhash": "5ce04c0590c166d926aa7a8325b74dd4",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1762962735,
     "wof:involves": [
+      1159289423,
       102527513,
       102544207,
       1159285129,
       1745882407
     ],
-    "wof:lastmodified": 1644250155,
+    "wof:lastmodified": 1644250990,
     "wof:name": "SK935 (CPH-SFO)",
     "wof:parent_id": 1745882407,
     "wof:placetype": "custom",

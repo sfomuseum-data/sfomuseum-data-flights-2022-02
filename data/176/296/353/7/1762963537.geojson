@@ -2,10 +2,12 @@
   "id": 1762963537,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-07",
+    "date:cessation_upper": "2022-02-07",
     "date:inception_lower": "2022-02-06",
     "date:inception_upper": "2022-02-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-06",
+    "edtf:cessation": "2022-02-07T06:19:00Z",
+    "edtf:inception": "2022-02-06T11:15:31-08:00",
     "flysfo:actual_timestamp": 1644202980,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N896NN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO09351200"
+    },
     "wof:country": "US",
     "wof:created": 1644250390,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1762963537,
     "wof:involves": [
+      1159289871,
       102528541,
       102527513,
-      1159283849,
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1644250390,
+    "wof:lastmodified": 1644250982,
     "wof:name": "AA9606 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
