@@ -2,10 +2,12 @@
   "id": 1762967677,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-07",
+    "date:cessation_upper": "2022-02-07",
     "date:inception_lower": "2022-02-07",
     "date:inception_upper": "2022-02-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-07",
+    "edtf:cessation": "2022-02-07T19:16:00Z",
+    "edtf:inception": "2022-02-07T13:25:00Z",
     "flysfo:actual_timestamp": 1644278400,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -48,6 +52,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14763036"
+    },
     "wof:country": "US",
     "wof:created": 1644336096,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -84,9 +91,10 @@
       102527513,
       102529403,
       1159283849,
-      1745882171
+      1745882171,
+      1377564297
     ],
-    "wof:lastmodified": 1644336096,
+    "wof:lastmodified": 1644337266,
     "wof:name": "AA2661 (PHL-SFO)",
     "wof:parent_id": 1745882171,
     "wof:placetype": "custom",
