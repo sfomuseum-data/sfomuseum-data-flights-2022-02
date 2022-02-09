@@ -2,10 +2,12 @@
   "id": 1762977721,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-08",
+    "date:cessation_upper": "2022-02-08",
     "date:inception_lower": "2022-02-08",
     "date:inception_upper": "2022-02-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-08",
+    "edtf:cessation": "2022-02-08T22:56:09Z",
+    "edtf:inception": "2022-02-08T03:19:16-08:00",
     "flysfo:actual_timestamp": 1644346260,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N838VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14869843"
+    },
     "wof:country": "US",
     "wof:created": 1644423214,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762977721,
     "wof:involves": [
+      1159292085,
       102533631,
       102527513,
       1159283813,
       1745882117
     ],
-    "wof:lastmodified": 1644423214,
+    "wof:lastmodified": 1644423614,
     "wof:name": "AS1208 (SFO-ORD)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",

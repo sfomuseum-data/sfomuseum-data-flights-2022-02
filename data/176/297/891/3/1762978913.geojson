@@ -2,10 +2,12 @@
   "id": 1762978913,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-08",
+    "date:cessation_upper": "2022-02-08",
     "date:inception_lower": "2022-02-08",
     "date:inception_upper": "2022-02-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-08",
+    "edtf:cessation": "2022-02-08T17:10:00Z",
+    "edtf:inception": "2022-02-08T16:17:00Z",
     "flysfo:actual_timestamp": 1644364800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7572305,
     "geom:longitude": -119.8129,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533771,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2332U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "14853144",
+      "swim:gufi": "KO46774300"
+    },
     "wof:country": "US",
     "wof:created": 1644423511,
     "wof:geomhash": "ab1c262cdcde68b15133eea54c0f464a",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1762978913,
     "wof:involves": [
-      102533771,
-      102527513,
       1159285413,
-      -1
+      1159289993,
+      102533771,
+      102527513
     ],
-    "wof:lastmodified": 1644423511,
+    "wof:lastmodified": 1644423607,
     "wof:name": "UA2580 (SFO-RIV)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

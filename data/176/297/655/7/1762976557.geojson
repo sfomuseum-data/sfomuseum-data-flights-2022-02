@@ -2,10 +2,12 @@
   "id": 1762976557,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-08",
+    "date:cessation_upper": "2022-02-08",
     "date:inception_lower": "2022-02-08",
     "date:inception_upper": "2022-02-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-08",
+    "edtf:cessation": "2022-02-08T08:19:18Z",
+    "edtf:inception": "2022-02-08T07:10:00Z",
     "flysfo:actual_timestamp": 1644308100,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-02-08",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14828463"
+    },
     "wof:country": "US",
     "wof:created": 1644422923,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,7 +91,7 @@
       1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1644422923,
+    "wof:lastmodified": 1644423611,
     "wof:name": "WN502 (LAS-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "custom",

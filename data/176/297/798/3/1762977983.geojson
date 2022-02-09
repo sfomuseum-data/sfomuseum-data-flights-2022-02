@@ -2,10 +2,12 @@
   "id": 1762977983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-09",
+    "date:cessation_upper": "2022-02-09",
     "date:inception_lower": "2022-02-08",
     "date:inception_upper": "2022-02-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-08",
+    "edtf:cessation": "2022-02-09T01:03:00Z",
+    "edtf:inception": "2022-02-08T20:53:00Z",
     "flysfo:actual_timestamp": 1644352860,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102525635,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N923DZ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14879319",
+      "swim:gufi": "KO71866300"
+    },
     "wof:country": "US",
     "wof:created": 1644423279,
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762977983,
     "wof:involves": [
+      1377564285,
       102525635,
       102527513,
       1159284261,
       1745882201
     ],
-    "wof:lastmodified": 1644423279,
+    "wof:lastmodified": 1644423604,
     "wof:name": "DL1446 (SFO-DTW)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",
