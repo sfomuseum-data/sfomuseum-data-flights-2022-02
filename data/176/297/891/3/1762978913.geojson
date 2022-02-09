@@ -1,0 +1,69 @@
+{
+  "id": 1762978913,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-02-08",
+    "date:inception_upper": "2022-02-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-02-08",
+    "flysfo:actual_timestamp": 1644364800,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2022-02-08",
+    "flysfo:estimated_timestamp": 1644336000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA2580",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-RIV",
+    "flysfo:scheduled_timestamp": 1644336000,
+    "flysfo:timestamp": 1644364800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.896471,-117.254857,37.617990",
+    "geom:latitude": 35.7572305,
+    "geom:longitude": -119.8129,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533771,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220208-D-UAL-2580",
+    "sfomuseum:flight_number": [
+      "UAL2580",
+      "UA2580"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1644423511,
+    "wof:geomhash": "ab1c262cdcde68b15133eea54c0f464a",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1762978913
+      }
+    ],
+    "wof:id": 1762978913,
+    "wof:involves": [
+      102533771,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1644423511,
+    "wof:name": "UA2580 (SFO-RIV)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.896471,
+    -117.254857,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-117.254857,33.896471]],"type":"MultiPoint"}
+}
