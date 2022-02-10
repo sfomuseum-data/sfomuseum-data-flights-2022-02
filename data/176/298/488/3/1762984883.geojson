@@ -2,10 +2,12 @@
   "id": 1762984883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-09",
+    "date:cessation_upper": "2022-02-09",
     "date:inception_lower": "2022-02-09",
     "date:inception_upper": "2022-02-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-09",
+    "edtf:cessation": "2022-02-09T07:26:27Z",
+    "edtf:inception": "2022-02-09T05:45:00Z",
     "flysfo:actual_timestamp": 1644451200,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-09",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "14907670"
+    },
     "wof:country": "US",
     "wof:created": 1644509646,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -50,7 +55,7 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1644509646,
+    "wof:lastmodified": 1644510047,
     "wof:name": "AS156 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
