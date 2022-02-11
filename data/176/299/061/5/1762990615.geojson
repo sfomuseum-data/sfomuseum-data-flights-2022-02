@@ -2,10 +2,12 @@
   "id": 1762990615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-10",
+    "date:cessation_upper": "2022-02-10",
     "date:inception_lower": "2022-02-10",
     "date:inception_upper": "2022-02-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-10",
+    "edtf:cessation": "2022-02-10T20:29:34Z",
+    "edtf:inception": "2022-02-10T10:25:00Z",
     "flysfo:actual_timestamp": 1644525540,
     "flysfo:airline": "FJ",
     "flysfo:date": "2022-02-10",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14999070"
+    },
     "wof:country": "US",
     "wof:created": 1644595635,
     "wof:geomhash": "b214b79a783c652f01bac93c835ba981",
@@ -86,7 +91,7 @@
       1159283717,
       1745882389
     ],
-    "wof:lastmodified": 1644595635,
+    "wof:lastmodified": 1644596520,
     "wof:name": "FJ870 (NAN-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",

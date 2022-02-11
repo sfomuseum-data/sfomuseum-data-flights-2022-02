@@ -2,10 +2,12 @@
   "id": 1762991751,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-10",
+    "date:cessation_upper": "2022-02-10",
     "date:inception_lower": "2022-02-10",
     "date:inception_upper": "2022-02-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-10",
+    "edtf:cessation": "2022-02-10T17:03:00Z",
+    "edtf:inception": "2022-02-10T16:07:00Z",
     "flysfo:actual_timestamp": 1644508620,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N813AW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15023660",
+      "swim:gufi": "KO53167500"
+    },
     "wof:country": "US",
     "wof:created": 1644595921,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762991751,
     "wof:involves": [
-      102533795,
-      102527513,
       1159283849,
-      1745882173
+      1745882173,
+      1159289407,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1644595921,
+    "wof:lastmodified": 1644596529,
     "wof:name": "AA2891 (SFO-LAX)",
     "wof:parent_id": 1745882173,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1762992543,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-10",
+    "date:cessation_upper": "2022-02-10",
     "date:inception_lower": "2022-02-10",
     "date:inception_upper": "2022-02-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-10",
+    "edtf:cessation": "2022-02-10T21:26:32Z",
+    "edtf:inception": "2022-02-10T16:09:00Z",
     "flysfo:actual_timestamp": 1644508200,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N927VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15023141"
+    },
     "wof:country": "US",
     "wof:created": 1644596114,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1762992543,
     "wof:involves": [
+      1745882101,
+      1377564297,
       102533657,
       102527513,
-      1159283813,
-      1745882101
+      1159283813
     ],
-    "wof:lastmodified": 1644596114,
+    "wof:lastmodified": 1644596531,
     "wof:name": "AS40 (SFO-MCO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

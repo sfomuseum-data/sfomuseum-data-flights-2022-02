@@ -2,10 +2,12 @@
   "id": 1762991573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-10",
+    "date:cessation_upper": "2022-02-10",
     "date:inception_lower": "2022-02-10",
     "date:inception_upper": "2022-02-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-10",
+    "edtf:cessation": "2022-02-10T16:35:00Z",
+    "edtf:inception": "2022-02-10T11:21:00Z",
     "flysfo:actual_timestamp": 1644511320,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37274",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15002041",
+      "swim:gufi": "KN30760500"
+    },
     "wof:country": "US",
     "wof:created": 1644595875,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1762991573,
     "wof:involves": [
+      1745882249,
+      1159289871,
       102527513,
       102529403,
-      1159285413,
-      1745882249
+      1159285413
     ],
-    "wof:lastmodified": 1644595875,
+    "wof:lastmodified": 1644596528,
     "wof:name": "UA731 (PHL-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

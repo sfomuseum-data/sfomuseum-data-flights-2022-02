@@ -2,10 +2,12 @@
   "id": 1762993663,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-10",
-    "date:inception_upper": "2022-02-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-10",
+    "date:cessation_lower": "2022-02-11",
+    "date:cessation_upper": "2022-02-11",
+    "date:inception_lower": "2022-02-11",
+    "date:inception_upper": "2022-02-11",
+    "edtf:cessation": "2022-02-11T05:52:42Z",
+    "edtf:inception": "2022-02-11T04:21:00Z",
     "flysfo:actual_timestamp": 1644552300,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N39418",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "14992973",
+      "swim:gufi": "KO07932600"
+    },
     "wof:country": "US",
     "wof:created": 1644596396,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1762993663,
     "wof:involves": [
+      1377564285,
       102526751,
       102527513,
       1159285413,
       1745882295
     ],
-    "wof:lastmodified": 1644596396,
+    "wof:lastmodified": 1644596523,
     "wof:name": "UA1964 (SFO-PHX)",
     "wof:parent_id": 1745882295,
     "wof:placetype": "custom",
