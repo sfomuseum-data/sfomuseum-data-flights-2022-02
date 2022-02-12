@@ -2,10 +2,12 @@
   "id": 1763000679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-11",
+    "date:cessation_upper": "2022-02-11",
     "date:inception_lower": "2022-02-11",
     "date:inception_upper": "2022-02-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-11",
+    "edtf:cessation": "2022-02-11T15:39:10Z",
+    "edtf:inception": "2022-02-11T14:08:00Z",
     "flysfo:actual_timestamp": 1644587820,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N195UW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15103937",
+      "swim:gufi": "KO45971600"
+    },
     "wof:country": "US",
     "wof:created": 1644682381,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763000679,
     "wof:involves": [
+      1159289411,
       102526751,
       102527513,
       1159283849,
       1745882185
     ],
-    "wof:lastmodified": 1644682381,
+    "wof:lastmodified": 1644683008,
     "wof:name": "AA2042 (SFO-PHX)",
     "wof:parent_id": 1745882185,
     "wof:placetype": "custom",
