@@ -2,10 +2,12 @@
   "id": 1763006991,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-12",
+    "date:cessation_upper": "2022-02-12",
     "date:inception_lower": "2022-02-12",
     "date:inception_upper": "2022-02-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-12",
+    "edtf:cessation": "2022-02-12T10:54:49-08:00",
+    "edtf:inception": "2022-02-12T01:59:00Z",
     "flysfo:actual_timestamp": 1644721140,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N808UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15167404",
+      "swim:gufi": "KL79181700"
+    },
     "wof:country": "US",
     "wof:created": 1644768595,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -84,9 +97,10 @@
       102527513,
       102534161,
       1159285413,
-      1745882249
+      1745882249,
+      1159289407
     ],
-    "wof:lastmodified": 1644768595,
+    "wof:lastmodified": 1644769362,
     "wof:name": "UA1506 (SNA-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763007135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-12",
+    "date:cessation_upper": "2022-02-12",
     "date:inception_lower": "2022-02-12",
     "date:inception_upper": "2022-02-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-12",
+    "edtf:cessation": "2022-02-12T05:47:58Z",
+    "edtf:inception": "2022-02-12T03:39:00Z",
     "flysfo:actual_timestamp": 1644710400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-12",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15169360"
+    },
     "wof:country": "US",
     "wof:created": 1644768634,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285413,
       1745882277
     ],
-    "wof:lastmodified": 1644768634,
+    "wof:lastmodified": 1644769351,
     "wof:name": "UA316 (DEN-SFO)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",

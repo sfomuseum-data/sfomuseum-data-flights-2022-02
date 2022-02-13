@@ -2,10 +2,12 @@
   "id": 1763007247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-12",
+    "date:cessation_upper": "2022-02-12",
     "date:inception_lower": "2022-02-12",
     "date:inception_upper": "2022-02-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-12",
+    "edtf:cessation": "2022-02-12T01:35:35-08:00",
+    "edtf:inception": "2022-02-12T13:48:00Z",
     "flysfo:actual_timestamp": 1644688920,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N13248",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15189118",
+      "swim:gufi": "KH35508700"
+    },
     "wof:country": "US",
     "wof:created": 1644768663,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -84,9 +98,10 @@
       102527513,
       102534097,
       1159285413,
-      1745882405
+      1745882405,
+      1159289871
     ],
-    "wof:lastmodified": 1644768663,
+    "wof:lastmodified": 1644769352,
     "wof:name": "UA547 (IAH-SFO)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "custom",
