@@ -2,10 +2,12 @@
   "id": 1763075595,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-13",
+    "date:cessation_upper": "2022-02-13",
     "date:inception_lower": "2022-02-13",
     "date:inception_upper": "2022-02-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-13",
+    "edtf:cessation": "2022-02-13T03:33:23-08:00",
+    "edtf:inception": "2022-02-13T17:27:00Z",
     "flysfo:actual_timestamp": 1644781080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N452UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15282954",
+      "swim:gufi": "KD50436100"
+    },
     "wof:country": "US",
     "wof:created": 1644855035,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763075595,
     "wof:involves": [
+      1745882247,
+      1159292085,
       102527513,
       102531189,
-      1159285413,
-      1745882247
+      1159285413
     ],
-    "wof:lastmodified": 1644855035,
+    "wof:lastmodified": 1644855798,
     "wof:name": "UA1672 (DEN-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",
