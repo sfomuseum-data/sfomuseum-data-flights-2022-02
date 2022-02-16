@@ -2,10 +2,12 @@
   "id": 1763091633,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-15",
-    "date:inception_upper": "2022-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-15",
+    "date:cessation_lower": "2022-02-15",
+    "date:cessation_upper": "2022-02-15",
+    "date:inception_lower": "2022-02-16",
+    "date:inception_upper": "2022-02-16",
+    "edtf:cessation": "2022-02-15T00:39:30-08:00",
+    "edtf:inception": "2022-02-16T08:15:00Z",
     "flysfo:actual_timestamp": 1644943560,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N24980",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS15934400"
+    },
     "wof:country": "US",
     "wof:created": 1645027885,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763091633,
     "wof:involves": [
+      1159293215,
       102527513,
       102541685,
       1159285413,
       1745882421
     ],
-    "wof:lastmodified": 1645027885,
+    "wof:lastmodified": 1645028485,
     "wof:name": "UA838 (NRT-SFO)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "custom",

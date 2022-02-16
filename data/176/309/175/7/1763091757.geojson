@@ -2,10 +2,12 @@
   "id": 1763091757,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-16",
+    "date:cessation_upper": "2022-02-16",
     "date:inception_lower": "2022-02-15",
     "date:inception_upper": "2022-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-15",
+    "edtf:cessation": "2022-02-16T01:48:00Z",
+    "edtf:inception": "2022-02-15T21:11:00Z",
     "flysfo:actual_timestamp": 1644958860,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N963NN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15447243",
+      "swim:gufi": "KO71256300"
+    },
     "wof:country": "US",
     "wof:created": 1645027916,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763091757,
     "wof:involves": [
+      1159289871,
       102531023,
       102527513,
       1159283849,
       1745882173
     ],
-    "wof:lastmodified": 1645027916,
+    "wof:lastmodified": 1645028486,
     "wof:name": "AA2045 (SFO-MIA)",
     "wof:parent_id": 1745882173,
     "wof:placetype": "custom",

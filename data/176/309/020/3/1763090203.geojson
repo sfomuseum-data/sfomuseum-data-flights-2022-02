@@ -2,10 +2,12 @@
   "id": 1763090203,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-16",
+    "date:cessation_upper": "2022-02-16",
     "date:inception_lower": "2022-02-15",
     "date:inception_upper": "2022-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-15",
+    "edtf:cessation": "2022-02-15T23:22:30-08:00",
+    "edtf:inception": "2022-02-15T14:13:00Z",
     "flysfo:actual_timestamp": 1644938100,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N838VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15410872"
+    },
     "wof:country": "US",
     "wof:created": 1645027518,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,9 +97,10 @@
       102527513,
       102533795,
       1159283813,
-      1745882095
+      1745882095,
+      1159292085
     ],
-    "wof:lastmodified": 1645027518,
+    "wof:lastmodified": 1645028474,
     "wof:name": "AS205 (LAX-SFO)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "custom",

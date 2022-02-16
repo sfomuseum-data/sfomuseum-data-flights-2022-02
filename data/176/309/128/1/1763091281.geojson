@@ -2,10 +2,12 @@
   "id": 1763091281,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-15",
+    "date:cessation_upper": "2022-02-15",
     "date:inception_lower": "2022-02-15",
     "date:inception_upper": "2022-02-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-15",
+    "edtf:cessation": "2022-02-15T23:47:00Z",
+    "edtf:inception": "2022-02-15T19:28:23Z",
     "flysfo:actual_timestamp": 1644969420,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-15",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15537669"
+    },
     "wof:country": "US",
     "wof:created": 1645027794,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -86,7 +91,7 @@
       1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1645027794,
+    "wof:lastmodified": 1645028483,
     "wof:name": "UA1639 (OGG-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",
