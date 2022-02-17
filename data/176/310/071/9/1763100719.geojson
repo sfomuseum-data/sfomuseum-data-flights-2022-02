@@ -2,10 +2,12 @@
   "id": 1763100719,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-17",
+    "date:cessation_upper": "2022-02-17",
     "date:inception_lower": "2022-02-16",
     "date:inception_upper": "2022-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-16",
+    "edtf:cessation": "2022-02-17T08:35:00Z",
+    "edtf:inception": "2022-02-16T15:40:47-08:00",
     "flysfo:actual_timestamp": 1645082880,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N897UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO16616500"
+    },
     "wof:country": "US",
     "wof:created": 1645136636,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763100719,
     "wof:involves": [
-      102533575,
-      102527513,
       1159285413,
-      1745882317
+      1745882317,
+      1159289407,
+      102533575,
+      102527513
     ],
-    "wof:lastmodified": 1645136636,
+    "wof:lastmodified": 1645136759,
     "wof:name": "UA2319 (SFO-ONT)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",

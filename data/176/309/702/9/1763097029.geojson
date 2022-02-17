@@ -2,10 +2,12 @@
   "id": 1763097029,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-16",
-    "date:inception_upper": "2022-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-16",
+    "date:cessation_lower": "2022-02-17",
+    "date:cessation_upper": "2022-02-17",
+    "date:inception_lower": "2022-02-17",
+    "date:inception_upper": "2022-02-17",
+    "edtf:cessation": "2022-02-17T03:21:00Z",
+    "edtf:inception": "2022-02-17T02:50:00Z",
     "flysfo:actual_timestamp": 1645056000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N270AK",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "15467198"
+    },
     "wof:country": "US",
     "wof:created": 1645113955,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1763097029,
     "wof:involves": [
+      1377564285,
       102527513,
       102530559,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1645113955,
+    "wof:lastmodified": 1645136760,
     "wof:name": "AS9719 (SMF-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

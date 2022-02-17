@@ -2,10 +2,12 @@
   "id": 1763098189,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-16",
+    "date:cessation_upper": "2022-02-16",
     "date:inception_lower": "2022-02-16",
     "date:inception_upper": "2022-02-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-16",
+    "edtf:cessation": "2022-02-16T01:43:15-08:00",
+    "edtf:inception": "2022-02-16T13:48:00Z",
     "flysfo:actual_timestamp": 1645056000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "15526655",
+      "swim:gufi": "KG29297400"
+    },
     "wof:country": "US",
     "wof:created": 1645114271,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -48,9 +62,9 @@
       102527513,
       102533631,
       1159285413,
-      -1
+      1159289945
     ],
-    "wof:lastmodified": 1645114271,
+    "wof:lastmodified": 1645136767,
     "wof:name": "UA2741 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
