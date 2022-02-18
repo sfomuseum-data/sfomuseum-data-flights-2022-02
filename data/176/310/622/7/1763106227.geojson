@@ -2,10 +2,12 @@
   "id": 1763106227,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-17",
+    "date:cessation_upper": "2022-02-17",
     "date:inception_lower": "2022-02-17",
     "date:inception_upper": "2022-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-17",
+    "edtf:cessation": "2022-02-17T21:28:00Z",
+    "edtf:inception": "2022-02-17T01:35:07-08:00",
     "flysfo:actual_timestamp": 1645142400,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO60050500"
+    },
     "wof:country": "US",
     "wof:created": 1645201062,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1763106227,
     "wof:involves": [
+      1159289939,
       102534019,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1645201062,
+    "wof:lastmodified": 1645201458,
     "wof:name": "DL8926 (SFO-CLE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

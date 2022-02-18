@@ -2,10 +2,12 @@
   "id": 1763107157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-17",
+    "date:cessation_upper": "2022-02-17",
     "date:inception_lower": "2022-02-17",
     "date:inception_upper": "2022-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-17",
+    "edtf:cessation": "2022-02-17T22:42:52Z",
+    "edtf:inception": "2022-02-17T05:31:54-08:00",
     "flysfo:actual_timestamp": 1645132620,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N830UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15613153",
+      "swim:gufi": "KO66280500"
+    },
     "wof:country": "US",
     "wof:created": 1645201308,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763107157,
     "wof:involves": [
-      102527209,
       102527513,
       1159285413,
-      1745882249
+      1745882249,
+      1159289407,
+      102527209
     ],
-    "wof:lastmodified": 1645201308,
+    "wof:lastmodified": 1645201460,
     "wof:name": "UA1926 (SFO-LAS)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

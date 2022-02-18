@@ -2,10 +2,12 @@
   "id": 1763103491,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-17",
-    "date:inception_upper": "2022-02-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-17",
+    "date:cessation_lower": "2022-02-18",
+    "date:cessation_upper": "2022-02-18",
+    "date:inception_lower": "2022-02-18",
+    "date:inception_upper": "2022-02-18",
+    "edtf:cessation": "2022-02-18T08:07:00Z",
+    "edtf:inception": "2022-02-18T02:08:00Z",
     "flysfo:actual_timestamp": 1645142400,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N292AK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15546361"
+    },
     "wof:country": "US",
     "wof:created": 1645200364,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763103491,
     "wof:involves": [
+      1745882107,
+      1377564285,
       102527513,
       102530049,
-      1159283813,
-      1745882107
+      1159283813
     ],
-    "wof:lastmodified": 1645200364,
+    "wof:lastmodified": 1645201463,
     "wof:name": "AS375 (EWR-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",
