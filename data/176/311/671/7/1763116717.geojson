@@ -2,10 +2,12 @@
   "id": 1763116717,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-18",
-    "date:inception_upper": "2022-02-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-18",
+    "date:cessation_lower": "2022-02-19",
+    "date:cessation_upper": "2022-02-19",
+    "date:inception_lower": "2022-02-19",
+    "date:inception_upper": "2022-02-19",
+    "edtf:cessation": "2022-02-19T07:41:00Z",
+    "edtf:inception": "2022-02-19T06:04:00Z",
     "flysfo:actual_timestamp": 1645249620,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N921AK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +91,13 @@
     ],
     "wof:id": 1763116717,
     "wof:involves": [
+      1745882103,
+      1528104577,
       102533269,
       102527513,
-      1159283813,
-      1745882103
+      1159283813
     ],
-    "wof:lastmodified": 1645287388,
+    "wof:lastmodified": 1645287851,
     "wof:name": "AS156 (SFO-SEA)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",
