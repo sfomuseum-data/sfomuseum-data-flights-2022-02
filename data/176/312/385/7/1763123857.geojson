@@ -2,10 +2,12 @@
   "id": 1763123857,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-19",
-    "date:inception_upper": "2022-02-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-19",
+    "date:cessation_lower": "2022-02-19",
+    "date:cessation_upper": "2022-02-19",
+    "date:inception_lower": "2022-02-20",
+    "date:inception_upper": "2022-02-20",
+    "edtf:cessation": "2022-02-19T19:39:00Z",
+    "edtf:inception": "2022-02-19T22:53:20-08:00",
     "flysfo:actual_timestamp": 1645281240,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N684UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15740746",
+      "swim:gufi": "KO39073700"
+    },
     "wof:country": "US",
     "wof:created": 1645374077,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763123857,
     "wof:involves": [
+      1159289965,
       102530049,
       102527513,
       1159285413,
       1745882273
     ],
-    "wof:lastmodified": 1645374077,
+    "wof:lastmodified": 1645374182,
     "wof:name": "UA295 (SFO-EWR)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "custom",

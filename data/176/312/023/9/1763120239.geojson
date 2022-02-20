@@ -2,10 +2,12 @@
   "id": 1763120239,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-20",
+    "date:cessation_upper": "2022-02-20",
     "date:inception_lower": "2022-02-19",
     "date:inception_upper": "2022-02-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-19",
+    "edtf:cessation": "2022-02-20T03:40:00Z",
+    "edtf:inception": "2022-02-19T23:51:00Z",
     "flysfo:actual_timestamp": 1645328820,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 27.6096895,
     "geom:longitude": -111.9156105,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536249,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N837VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15789155"
+    },
     "wof:country": "US",
     "wof:created": 1645373139,
     "wof:geomhash": "cbd37ba65d3a2508653294cff7fdec15",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763120239,
     "wof:involves": [
+      1159292085,
       102527513,
       102536249,
       1159283813,
       1745882389
     ],
-    "wof:lastmodified": 1645373139,
+    "wof:lastmodified": 1645374176,
     "wof:name": "AS300 (ZIH-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",
