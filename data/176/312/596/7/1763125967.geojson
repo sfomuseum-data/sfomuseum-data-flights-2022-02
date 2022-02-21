@@ -2,10 +2,12 @@
   "id": 1763125967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-20",
+    "date:cessation_upper": "2022-02-20",
     "date:inception_lower": "2022-02-20",
     "date:inception_upper": "2022-02-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-20",
+    "edtf:cessation": "2022-02-20T14:36:00Z",
+    "edtf:inception": "2022-02-20T00:20:25Z",
     "flysfo:actual_timestamp": 1645368180,
     "flysfo:airline": "AI",
     "flysfo:date": "2022-02-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.089972,
     "geom:longitude": -22.636412999999997,
     "iata:airline": "AI",
+    "icao:aircraft": "B77W",
     "icao:airline": "AIC",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555709,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "VTALN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15883282"
+    },
     "wof:country": "US",
     "wof:created": 1645459468,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763125967,
     "wof:involves": [
+      1159289993,
       102527513,
       102555709,
       1159283649,
       1745882419
     ],
-    "wof:lastmodified": 1645459468,
+    "wof:lastmodified": 1645460600,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",
