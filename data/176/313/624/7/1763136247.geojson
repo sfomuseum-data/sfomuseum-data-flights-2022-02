@@ -2,10 +2,12 @@
   "id": 1763136247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-21",
+    "date:cessation_upper": "2022-02-21",
     "date:inception_lower": "2022-02-21",
     "date:inception_upper": "2022-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-21",
+    "edtf:cessation": "2022-02-21T22:45:00Z",
+    "edtf:inception": "2022-02-21T05:10:15-08:00",
     "flysfo:actual_timestamp": 1645476960,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.612295,
     "geom:longitude": -116.5547415,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534217,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N405UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "15928588",
+      "swim:gufi": "KO65761200"
+    },
     "wof:country": "US",
     "wof:created": 1645546928,
     "wof:geomhash": "9f2aefec298b0356dc0b4065c5b61f73",
@@ -84,9 +98,10 @@
       102534217,
       102527513,
       1159285413,
-      1745882247
+      1745882247,
+      1159292085
     ],
-    "wof:lastmodified": 1645546928,
+    "wof:lastmodified": 1645547054,
     "wof:name": "UA2371 (SFO-JAC)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763133553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-21",
+    "date:cessation_upper": "2022-02-21",
     "date:inception_lower": "2022-02-21",
     "date:inception_upper": "2022-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-21",
+    "edtf:cessation": "2022-02-21T23:20:00Z",
+    "edtf:inception": "2022-02-21T21:04:00Z",
     "flysfo:actual_timestamp": 1645486380,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-02-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N7889A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "15928264"
+    },
     "wof:country": "US",
     "wof:created": 1645546227,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -48,9 +60,10 @@
       102527513,
       102531189,
       1159285591,
-      1745882151
+      1745882151,
+      1159289869
     ],
-    "wof:lastmodified": 1645546227,
+    "wof:lastmodified": 1645547060,
     "wof:name": "WN2094 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

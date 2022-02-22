@@ -2,10 +2,12 @@
   "id": 1763135971,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-21",
-    "date:inception_upper": "2022-02-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-21",
+    "date:cessation_lower": "2022-02-22",
+    "date:cessation_upper": "2022-02-22",
+    "date:inception_lower": "2022-02-22",
+    "date:inception_upper": "2022-02-22",
+    "edtf:cessation": "2022-02-22T05:16:00Z",
+    "edtf:inception": "2022-02-22T04:26:00Z",
     "flysfo:actual_timestamp": 1645503660,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-02-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N414WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "15872972"
+    },
     "wof:country": "US",
     "wof:created": 1645546852,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -45,12 +58,13 @@
     ],
     "wof:id": 1763135971,
     "wof:involves": [
+      1745882153,
+      1159289869,
       1746879083,
       102527513,
-      1159285591,
-      1745882153
+      1159285591
     ],
-    "wof:lastmodified": 1645546852,
+    "wof:lastmodified": 1645547062,
     "wof:name": "WN1476 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
