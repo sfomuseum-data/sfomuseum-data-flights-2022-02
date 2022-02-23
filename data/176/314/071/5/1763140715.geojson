@@ -2,10 +2,12 @@
   "id": 1763140715,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-22",
+    "date:cessation_upper": "2022-02-22",
     "date:inception_lower": "2022-02-22",
     "date:inception_upper": "2022-02-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-22",
+    "edtf:cessation": "2022-02-22T08:34:39-08:00",
+    "edtf:inception": "2022-02-22T19:56:00Z",
     "flysfo:actual_timestamp": 1645576980,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N75854",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16005535",
+      "swim:gufi": "KO82891300"
+    },
     "wof:country": "US",
     "wof:created": 1645632614,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763140715,
     "wof:involves": [
-      102527513,
       102533997,
       1159285413,
-      1745882279
+      1745882279,
+      1159289945,
+      102527513
     ],
-    "wof:lastmodified": 1645632614,
+    "wof:lastmodified": 1645633353,
     "wof:name": "UA1151 (HNL-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

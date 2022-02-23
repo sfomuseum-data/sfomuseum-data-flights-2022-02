@@ -2,10 +2,12 @@
   "id": 1763143421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-22",
     "date:inception_upper": "2022-02-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-22",
+    "edtf:cessation": "2022-02-23T18:50:50Z",
+    "edtf:inception": "2022-02-22T11:56:02-08:00",
     "flysfo:actual_timestamp": 1645586940,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.089972,
     "geom:longitude": -22.636412999999997,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555709,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N29961",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO85603300"
+    },
     "wof:country": "US",
     "wof:created": 1645633314,
     "wof:geomhash": "5685f56014cf853d095c4b0f2d5ea6d9",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763143421,
     "wof:involves": [
-      102555709,
       102527513,
       1159285413,
-      1745882407
+      1745882407,
+      1159293215,
+      102555709
     ],
-    "wof:lastmodified": 1645633314,
+    "wof:lastmodified": 1645633366,
     "wof:name": "UA867 (SFO-DEL)",
     "wof:parent_id": 1745882407,
     "wof:placetype": "custom",
