@@ -2,10 +2,12 @@
   "id": 1763146949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-23",
     "date:inception_upper": "2022-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-23",
+    "edtf:cessation": "2022-02-23T08:40:00Z",
+    "edtf:inception": "2022-02-23T06:24:00Z",
     "flysfo:actual_timestamp": 1645606140,
     "flysfo:airline": "F9",
     "flysfo:date": "2022-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -48,6 +52,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16039367",
+      "swim:gufi": "KD14822400"
+    },
     "wof:country": "US",
     "wof:created": 1645718891,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763146949,
     "wof:involves": [
+      1159289411,
       102527513,
       102531189,
       1159284401,
       1745882389
     ],
-    "wof:lastmodified": 1645718891,
+    "wof:lastmodified": 1645719826,
     "wof:name": "F9665 (DEN-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",

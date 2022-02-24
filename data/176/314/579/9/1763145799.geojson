@@ -2,10 +2,12 @@
   "id": 1763145799,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-23",
     "date:inception_upper": "2022-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-23",
+    "edtf:cessation": "2022-02-23T05:15:04-08:00",
+    "edtf:inception": "2022-02-23T15:51:00Z",
     "flysfo:actual_timestamp": 1645651200,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N180US",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16063594",
+      "swim:gufi": "KT51574400"
+    },
     "wof:country": "US",
     "wof:created": 1645718559,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -84,9 +98,10 @@
       102527513,
       102528659,
       1159283849,
-      1745882175
+      1745882175,
+      1159289411
     ],
-    "wof:lastmodified": 1645718559,
+    "wof:lastmodified": 1645719819,
     "wof:name": "AA2651 (CLT-SFO)",
     "wof:parent_id": 1745882175,
     "wof:placetype": "custom",

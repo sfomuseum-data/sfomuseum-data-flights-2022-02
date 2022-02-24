@@ -2,10 +2,12 @@
   "id": 1763147761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-23",
     "date:inception_upper": "2022-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-23",
+    "edtf:cessation": "2022-02-23T00:48:39-08:00",
+    "edtf:inception": "2022-02-23T07:38:00Z",
     "flysfo:actual_timestamp": 1645660800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.600994999999998,
     "geom:longitude": 11.279525,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102535781,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2331U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "16040132",
+      "swim:gufi": "KO55136400"
+    },
     "wof:country": "US",
     "wof:created": 1645719104,
     "wof:geomhash": "b2468cfaf1e3ee3fda5697d4572a9dcf",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1763147761,
     "wof:involves": [
+      1159289993,
       102527513,
       102535781,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1645719104,
+    "wof:lastmodified": 1645719833,
     "wof:name": "UA2576 (UAM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

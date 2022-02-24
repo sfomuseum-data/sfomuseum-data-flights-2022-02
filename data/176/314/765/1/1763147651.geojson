@@ -2,10 +2,12 @@
   "id": 1763147651,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-23",
     "date:inception_upper": "2022-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-23",
+    "edtf:cessation": "2022-02-23T12:35:52-08:00",
+    "edtf:inception": "2022-02-23T23:59:00Z",
     "flysfo:actual_timestamp": 1645677600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N814UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16106719",
+      "swim:gufi": "KM73774400"
+    },
     "wof:country": "US",
     "wof:created": 1645719075,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -84,9 +97,10 @@
       102527513,
       102525035,
       1159285413,
-      1745882315
+      1745882315,
+      1159289407
     ],
-    "wof:lastmodified": 1645719075,
+    "wof:lastmodified": 1645719832,
     "wof:name": "UA1581 (BNA-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

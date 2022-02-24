@@ -2,10 +2,12 @@
   "id": 1763147791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-23",
+    "date:cessation_upper": "2022-02-23",
     "date:inception_lower": "2022-02-23",
     "date:inception_upper": "2022-02-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-23",
+    "edtf:cessation": "2022-02-23T06:39:01-08:00",
+    "edtf:inception": "2022-02-23T21:26:00Z",
     "flysfo:actual_timestamp": 1645656120,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27246",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16091874",
+      "swim:gufi": "KL64975400"
+    },
     "wof:country": "US",
     "wof:created": 1645719112,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -84,9 +98,10 @@
       102527513,
       102533591,
       1159285413,
-      1745882293
+      1745882293,
+      1159289871
     ],
-    "wof:lastmodified": 1645719112,
+    "wof:lastmodified": 1645719833,
     "wof:name": "UA418 (PSP-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",
