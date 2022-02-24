@@ -1,0 +1,69 @@
+{
+  "id": 1763147765,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-02-23",
+    "date:inception_upper": "2022-02-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-02-23",
+    "flysfo:actual_timestamp": 1645660800,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2022-02-23",
+    "flysfo:estimated_timestamp": 1645675620,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA2585",
+    "flysfo:gate": "",
+    "flysfo:journey": "GPT-SFO",
+    "flysfo:scheduled_timestamp": 1645672800,
+    "flysfo:timestamp": 1645675620,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,30.414913,-89.063941,37.617990",
+    "geom:latitude": 34.0164515,
+    "geom:longitude": -105.717442,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102529835,
+    "sfomuseum:flight_id": "20220223-A-UAL-2585",
+    "sfomuseum:flight_number": [
+      "UAL2585",
+      "UA2585"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1645719105,
+    "wof:geomhash": "155e75410c61b2c43425a0073d88703f",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763147765
+      }
+    ],
+    "wof:id": 1763147765,
+    "wof:involves": [
+      102527513,
+      102529835,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1645719105,
+    "wof:name": "UA2585 (GPT-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    30.414913,
+    -89.063941,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-89.063941,30.414913],[-122.370943,37.61799]],"type":"MultiPoint"}
+}

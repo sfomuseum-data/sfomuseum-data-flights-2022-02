@@ -1,0 +1,69 @@
+{
+  "id": 1763148183,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-02-23",
+    "date:inception_upper": "2022-02-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-02-23",
+    "flysfo:actual_timestamp": 1645660800,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2022-02-23",
+    "flysfo:estimated_timestamp": 1645628520,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AA2933",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-DEN",
+    "flysfo:scheduled_timestamp": 1645628400,
+    "flysfo:timestamp": 1645660800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-104.672219,39.864939",
+    "geom:latitude": 38.7414645,
+    "geom:longitude": -113.521581,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102531189,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220223-D-AAL-2933",
+    "sfomuseum:flight_number": [
+      "AAL2933",
+      "AA2933"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1645719218,
+    "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763148183
+      }
+    ],
+    "wof:id": 1763148183,
+    "wof:involves": [
+      102531189,
+      102527513,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1645719218,
+    "wof:name": "AA2933 (SFO-DEN)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-02",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -104.672219,
+    39.864939
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-104.672219,39.864939]],"type":"MultiPoint"}
+}
