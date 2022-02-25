@@ -2,10 +2,12 @@
   "id": 1763154563,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-25",
+    "date:cessation_upper": "2022-02-25",
     "date:inception_lower": "2022-02-24",
     "date:inception_upper": "2022-02-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-24",
+    "edtf:cessation": "2022-02-25T01:19:17Z",
+    "edtf:inception": "2022-02-24T20:20:00Z",
     "flysfo:actual_timestamp": 1645732620,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-24",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16168063"
+    },
     "wof:country": "US",
     "wof:created": 1645805822,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,7 +91,7 @@
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1645805822,
+    "wof:lastmodified": 1645806273,
     "wof:name": "AS744 (SFO-HNL)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

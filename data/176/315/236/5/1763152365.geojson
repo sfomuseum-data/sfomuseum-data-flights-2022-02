@@ -2,10 +2,12 @@
   "id": 1763152365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-24",
+    "date:cessation_upper": "2022-02-24",
     "date:inception_lower": "2022-02-24",
     "date:inception_upper": "2022-02-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-24",
+    "edtf:cessation": "2022-02-24T09:31:18-08:00",
+    "edtf:inception": "2022-02-24T21:55:00Z",
     "flysfo:actual_timestamp": 1645752960,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N314DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KP73860500"
+    },
     "wof:country": "US",
     "wof:created": 1645805254,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763152365,
     "wof:involves": [
+      1159289411,
       102527513,
       102531131,
       1159284261,
       1745882203
     ],
-    "wof:lastmodified": 1645805254,
+    "wof:lastmodified": 1645806279,
     "wof:name": "DL719 (MSP-SFO)",
     "wof:parent_id": 1745882203,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763153191,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-24",
-    "date:inception_upper": "2022-02-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-24",
+    "date:cessation_lower": "2022-02-24",
+    "date:cessation_upper": "2022-02-24",
+    "date:inception_lower": "2022-02-25",
+    "date:inception_upper": "2022-02-25",
+    "edtf:cessation": "2022-02-24T12:48:34-08:00",
+    "edtf:inception": "2022-02-25T00:10:00Z",
     "flysfo:actual_timestamp": 1645764780,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N417UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16106719",
+      "swim:gufi": "KM74896500"
+    },
     "wof:country": "US",
     "wof:created": 1645805470,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -84,9 +98,10 @@
       102527513,
       102525035,
       1159285413,
-      1745882251
+      1745882251,
+      1159292085
     ],
-    "wof:lastmodified": 1645805470,
+    "wof:lastmodified": 1645806282,
     "wof:name": "UA1581 (BNA-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",
