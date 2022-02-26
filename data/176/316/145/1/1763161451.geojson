@@ -2,10 +2,12 @@
   "id": 1763161451,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-25",
+    "date:cessation_upper": "2022-02-25",
     "date:inception_lower": "2022-02-25",
     "date:inception_upper": "2022-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-25",
+    "edtf:cessation": "2022-02-25T19:49:00Z",
+    "edtf:inception": "2022-02-25T03:03:06-08:00",
     "flysfo:actual_timestamp": 1645814940,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N427UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16253522",
+      "swim:gufi": "KO57536600"
+    },
     "wof:country": "US",
     "wof:created": 1645892530,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763161451,
     "wof:involves": [
-      102527337,
       102527513,
       1159285413,
-      1745882303
+      1745882303,
+      1159292085,
+      102527337
     ],
-    "wof:lastmodified": 1645892530,
+    "wof:lastmodified": 1645892662,
     "wof:name": "UA2359 (SFO-SBA)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "custom",

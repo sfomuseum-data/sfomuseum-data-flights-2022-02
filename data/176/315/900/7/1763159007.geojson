@@ -2,10 +2,12 @@
   "id": 1763159007,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-25",
+    "date:cessation_upper": "2022-02-25",
     "date:inception_lower": "2022-02-25",
     "date:inception_upper": "2022-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-25",
+    "edtf:cessation": "2022-02-25T14:29:00Z",
+    "edtf:inception": "2022-02-25T09:58:00Z",
     "flysfo:actual_timestamp": 1645833600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "16264217",
+      "swim:gufi": "KO46787600"
+    },
     "wof:country": "US",
     "wof:created": 1645891928,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1763159007,
     "wof:involves": [
+      1159289871,
       102527513,
       102532929,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1645891928,
+    "wof:lastmodified": 1645892667,
     "wof:name": "UA2751 (OGG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

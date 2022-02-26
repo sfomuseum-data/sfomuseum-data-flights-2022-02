@@ -2,10 +2,12 @@
   "id": 1763160661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2022-02-25",
     "date:inception_upper": "2022-02-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-25",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-02-25T14:26:11-08:00",
     "flysfo:actual_timestamp": 1645855380,
     "flysfo:airline": "FJ",
     "flysfo:date": "2022-02-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 9.9055625,
     "geom:longitude": 27.502708500000004,
     "iata:airline": "FJ",
+    "icao:aircraft": "A332",
     "icao:airline": "FJI",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159283717,
     "sfomuseum:arrival_id": 102555575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "DQFJT",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102555575,
       102527513,
       1159283717,
-      1745882381
+      1745882381,
+      1159289421
     ],
-    "wof:lastmodified": 1645892337,
+    "wof:lastmodified": 1645892656,
     "wof:name": "FJ871 (SFO-NAN)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "custom",
