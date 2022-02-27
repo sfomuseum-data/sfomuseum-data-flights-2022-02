@@ -2,10 +2,12 @@
   "id": 1763162671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-26",
+    "date:cessation_upper": "2022-02-26",
     "date:inception_lower": "2022-02-26",
     "date:inception_upper": "2022-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-26",
+    "edtf:cessation": "2022-02-26T18:09:06Z",
+    "edtf:inception": "2022-02-26T16:40:00Z",
     "flysfo:actual_timestamp": 1645899120,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N921AK",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16331422"
+    },
     "wof:country": "US",
     "wof:created": 1645977959,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -84,9 +97,10 @@
       102527513,
       102532251,
       1159283813,
-      1745882089
+      1745882089,
+      1528104577
     ],
-    "wof:lastmodified": 1645977959,
+    "wof:lastmodified": 1645979051,
     "wof:name": "AS206 (PDX-SFO)",
     "wof:parent_id": 1745882089,
     "wof:placetype": "custom",

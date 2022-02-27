@@ -2,10 +2,12 @@
   "id": 1763166165,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-26",
+    "date:cessation_upper": "2022-02-26",
     "date:inception_lower": "2022-02-26",
     "date:inception_upper": "2022-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-26",
+    "edtf:cessation": "2022-02-26T22:28:00Z",
+    "edtf:inception": "2022-02-26T19:20:00Z",
     "flysfo:actual_timestamp": 1645902000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N37518",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16346986",
+      "swim:gufi": "KO57332700"
+    },
     "wof:country": "US",
     "wof:created": 1645978868,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -84,9 +93,10 @@
       102534097,
       102527513,
       1159285413,
-      1745882279
+      1745882279,
+      1528104577
     ],
-    "wof:lastmodified": 1645978868,
+    "wof:lastmodified": 1645979049,
     "wof:name": "UA1444 (SFO-IAH)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763165369,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-26",
+    "date:cessation_upper": "2022-02-26",
     "date:inception_lower": "2022-02-26",
     "date:inception_upper": "2022-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-26",
+    "edtf:cessation": "2022-02-26T19:56:00Z",
+    "edtf:inception": "2022-02-26T14:54:00Z",
     "flysfo:actual_timestamp": 1645920000,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-02-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533003,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N893DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "16320245",
+      "swim:gufi": "KO43331700"
+    },
     "wof:country": "US",
     "wof:created": 1645978664,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -48,9 +60,9 @@
       102533003,
       102527513,
       1159284261,
-      -1
+      1377564285
     ],
-    "wof:lastmodified": 1645978664,
+    "wof:lastmodified": 1645979047,
     "wof:name": "DL8964 (SFO-NGF)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

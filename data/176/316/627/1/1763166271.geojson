@@ -2,10 +2,12 @@
   "id": 1763166271,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-02-26",
-    "date:inception_upper": "2022-02-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-26",
+    "date:cessation_lower": "2022-02-27",
+    "date:cessation_upper": "2022-02-27",
+    "date:inception_lower": "2022-02-27",
+    "date:inception_upper": "2022-02-27",
+    "edtf:cessation": "2022-02-27T14:18:15Z",
+    "edtf:inception": "2022-02-27T09:55:00Z",
     "flysfo:actual_timestamp": 1645947300,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N646UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16300765",
+      "swim:gufi": "KO24037100"
+    },
     "wof:country": "US",
     "wof:created": 1645978903,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -84,9 +98,10 @@
       102528817,
       102527513,
       1159285413,
-      1745882273
+      1745882273,
+      1159289965
     ],
-    "wof:lastmodified": 1645978903,
+    "wof:lastmodified": 1645979058,
     "wof:name": "UA2214 (SFO-IAD)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "custom",
