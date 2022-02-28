@@ -2,10 +2,12 @@
   "id": 1763171549,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-28",
+    "date:cessation_upper": "2022-02-28",
     "date:inception_lower": "2022-02-27",
     "date:inception_upper": "2022-02-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-27",
+    "edtf:cessation": "2022-02-28T10:48:45Z",
+    "edtf:inception": "2022-02-27T15:11:03-08:00",
     "flysfo:actual_timestamp": 1646030280,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534155,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N28457",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO14710200"
+    },
     "wof:country": "US",
     "wof:created": 1646065333,
     "wof:geomhash": "75b67362ad403f806ec665af17b684aa",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763171549,
     "wof:involves": [
+      1377564285,
       102534155,
       102527513,
       1159285413,
       1745882425
     ],
-    "wof:lastmodified": 1646065333,
+    "wof:lastmodified": 1646065519,
     "wof:name": "UA1924 (SFO-IND)",
     "wof:parent_id": 1745882425,
     "wof:placetype": "custom",

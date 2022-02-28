@@ -2,10 +2,12 @@
   "id": 1763169085,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-28",
+    "date:cessation_upper": "2022-02-28",
     "date:inception_lower": "2022-02-27",
     "date:inception_upper": "2022-02-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-27",
+    "edtf:cessation": "2022-02-27T22:39:22-08:00",
+    "edtf:inception": "2022-02-27T10:07:00Z",
     "flysfo:actual_timestamp": 1645972020,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-02-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.675217,
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532939,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N78013",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16394877",
+      "swim:gufi": "KO46572100"
+    },
     "wof:country": "US",
     "wof:created": 1646064699,
     "wof:geomhash": "d5ad4a83d3d679d1b3fe86e419b08d84",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763169085,
     "wof:involves": [
+      1159289993,
       102527513,
       102532939,
       1159285413,
       1745882281
     ],
-    "wof:lastmodified": 1646064699,
+    "wof:lastmodified": 1646065523,
     "wof:name": "UA1724 (KOA-SFO)",
     "wof:parent_id": 1745882281,
     "wof:placetype": "custom",
