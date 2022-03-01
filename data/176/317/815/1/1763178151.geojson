@@ -2,10 +2,12 @@
   "id": 1763178151,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-28",
+    "date:cessation_upper": "2022-02-28",
     "date:inception_lower": "2022-02-28",
     "date:inception_upper": "2022-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-28",
+    "edtf:cessation": "2022-02-28T15:11:00Z",
+    "edtf:inception": "2022-02-28T14:17:00Z",
     "flysfo:actual_timestamp": 1646057160,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-02-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N7878A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16495893"
+    },
     "wof:country": "US",
     "wof:created": 1646151710,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763178151,
     "wof:involves": [
+      1159289869,
       1746879083,
       102527513,
       1159285591,
       1745882157
     ],
-    "wof:lastmodified": 1646151710,
+    "wof:lastmodified": 1646151944,
     "wof:name": "WN2245 (SFO-BUR)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "custom",

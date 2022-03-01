@@ -2,10 +2,12 @@
   "id": 1763177133,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-28",
+    "date:cessation_upper": "2022-02-28",
     "date:inception_lower": "2022-02-28",
     "date:inception_upper": "2022-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-28",
+    "edtf:cessation": "2022-02-28T11:56:17Z",
+    "edtf:inception": "2022-02-28T07:14:00Z",
     "flysfo:actual_timestamp": 1646092800,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-02-28",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "16481185"
+    },
     "wof:country": "US",
     "wof:created": 1646151449,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -50,7 +55,7 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1646151449,
+    "wof:lastmodified": 1646151931,
     "wof:name": "AS191 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

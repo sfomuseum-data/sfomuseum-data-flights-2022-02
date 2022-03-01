@@ -2,10 +2,12 @@
   "id": 1763175695,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-02-28",
+    "date:cessation_upper": "2022-02-28",
     "date:inception_lower": "2022-02-28",
     "date:inception_upper": "2022-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-28",
+    "edtf:cessation": "2022-02-28T14:17:20-08:00",
+    "edtf:inception": "2022-02-28T05:08:00Z",
     "flysfo:actual_timestamp": 1646115780,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-02-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8616C",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16478727"
+    },
     "wof:country": "US",
     "wof:created": 1646151078,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763175695,
     "wof:involves": [
+      1159289871,
       102527513,
       102530009,
       1159285591,
       1745882155
     ],
-    "wof:lastmodified": 1646151078,
+    "wof:lastmodified": 1646151940,
     "wof:name": "WN772 (MSY-SFO)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "custom",

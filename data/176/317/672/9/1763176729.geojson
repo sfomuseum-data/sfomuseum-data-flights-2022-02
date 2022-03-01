@@ -2,10 +2,12 @@
   "id": 1763176729,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-01",
+    "date:cessation_upper": "2022-03-01",
     "date:inception_lower": "2022-02-28",
     "date:inception_upper": "2022-02-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-02-28",
+    "edtf:cessation": "2022-03-01T00:38:52Z",
+    "edtf:inception": "2022-02-28T20:15:00Z",
     "flysfo:actual_timestamp": 1646078400,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-02-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A320",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "CFKPT",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16527582",
+      "swim:gufi": "KO58860200"
+    },
     "wof:country": "US",
     "wof:created": 1646151343,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763176729,
     "wof:involves": [
-      102555091,
-      102527513,
       1159283597,
-      1745882409
+      1745882409,
+      1159292085,
+      102555091,
+      102527513
     ],
-    "wof:lastmodified": 1646151343,
+    "wof:lastmodified": 1646151931,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",
