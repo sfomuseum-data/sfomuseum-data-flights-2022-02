@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1644688800,
     "flysfo:timestamp": 1644710400,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,35.176292,-79.006810,37.617990",
+    "geom:latitude": 36.397141,
+    "geom:longitude": -100.68887649999999,
     "iata:airline": "UA",
     "icao:aircraft": "B77W",
     "icao:airline": "UAL",
@@ -29,7 +29,7 @@
     "lbl:longitude": -122.392508,
     "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102532415,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220212-D-UAL-2589",
     "sfomuseum:flight_number": [
@@ -63,7 +63,7 @@
     },
     "wof:country": "US",
     "wof:created": 1644769238,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "d41d81819b57f6142328539bfe311768",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -99,7 +99,7 @@
       1159289993,
       102527513
     ],
-    "wof:lastmodified": 1644769364,
+    "wof:lastmodified": 1652204780,
     "wof:name": "UA2589 (SFO-POB)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",
@@ -110,9 +110,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    35.176292,
+    -79.00681,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-79.00681,35.176292]],"type":"MultiPoint"}
 }
