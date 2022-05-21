@@ -44,7 +44,20 @@
       "swim-takeoff"
     ],
     "swim:tail_number": "N8617E",
-    "wof:belongsto": [],
+    "wof:belongsto": [
+      1763588121,
+      102527513,
+      1763588177,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1763588185,
+      1763588175,
+      102085387
+    ],
     "wof:concordances": {
       "swim:flight_ref": "15890132"
     },
@@ -53,7 +66,30 @@
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
     "wof:hierarchy": [
       {
-        "flight_id": 1763136011
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588177,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "flight_id": 1763136011,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1763588185,
+        "wing_id": 1763588175
+      },
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588177,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "flight_id": 1763136011,
+        "region_id": 85688637,
+        "venue_id": 1763588185,
+        "wing_id": 1763588175
       }
     ],
     "wof:id": 1763136011,
@@ -64,9 +100,9 @@
       1159289871,
       102531205
     ],
-    "wof:lastmodified": 1645547063,
+    "wof:lastmodified": 1653093209,
     "wof:name": "WN815 (SFO-MDW)",
-    "wof:parent_id": -1,
+    "wof:parent_id": 1763588185,
     "wof:placetype": "custom",
     "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2022-02",
