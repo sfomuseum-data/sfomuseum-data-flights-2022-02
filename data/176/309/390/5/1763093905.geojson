@@ -40,6 +40,7 @@
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
     "wof:hierarchy": [
       {
+        "custom_id": 1763093905,
         "flight_id": 1763093905
       }
     ],
@@ -50,11 +51,13 @@
       1159285523,
       -1
     ],
-    "wof:lastmodified": 1645028458,
+    "wof:lastmodified": 1717038477,
     "wof:name": "WS1509 (SFO-YYC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

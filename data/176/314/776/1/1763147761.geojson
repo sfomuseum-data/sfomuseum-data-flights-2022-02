@@ -52,6 +52,7 @@
     "wof:geomhash": "b2468cfaf1e3ee3fda5697d4572a9dcf",
     "wof:hierarchy": [
       {
+        "custom_id": 1763147761,
         "flight_id": 1763147761
       }
     ],
@@ -62,11 +63,13 @@
       102535781,
       1159285413
     ],
-    "wof:lastmodified": 1645719833,
+    "wof:lastmodified": 1717038483,
     "wof:name": "UA2576 (UAM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

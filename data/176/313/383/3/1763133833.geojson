@@ -49,6 +49,7 @@
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
     "wof:hierarchy": [
       {
+        "custom_id": 1763133833,
         "flight_id": 1763133833
       }
     ],
@@ -58,11 +59,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1645547061,
+    "wof:lastmodified": 1717038481,
     "wof:name": "UA295 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

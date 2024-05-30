@@ -45,6 +45,7 @@
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
     "wof:hierarchy": [
       {
+        "custom_id": 1763077741,
         "flight_id": 1763077741
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159283813
     ],
-    "wof:lastmodified": 1644855594,
+    "wof:lastmodified": 1717038483,
     "wof:name": "SQ1374 (SFO-DAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

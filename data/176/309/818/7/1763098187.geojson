@@ -53,6 +53,7 @@
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
     "wof:hierarchy": [
       {
+        "custom_id": 1763098187,
         "flight_id": 1763098187
       }
     ],
@@ -63,11 +64,13 @@
       1159289871,
       102527513
     ],
-    "wof:lastmodified": 1645136767,
+    "wof:lastmodified": 1717038479,
     "wof:name": "UA2721 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

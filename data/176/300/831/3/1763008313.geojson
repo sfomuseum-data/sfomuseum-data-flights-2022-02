@@ -40,6 +40,7 @@
     "wof:geomhash": "8115bc7828d3bd6404c793fb172971b8",
     "wof:hierarchy": [
       {
+        "custom_id": 1763008313,
         "flight_id": 1763008313
       }
     ],
@@ -50,11 +51,13 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1644768940,
+    "wof:lastmodified": 1717038479,
     "wof:name": "AS3499 (SFO-BZN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -54,6 +54,7 @@
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [
       {
+        "custom_id": 1763104739,
         "flight_id": 1763104739
       }
     ],
@@ -64,11 +65,13 @@
       102533997,
       1159285413
     ],
-    "wof:lastmodified": 1645201455,
+    "wof:lastmodified": 1717038479,
     "wof:name": "UA2747 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

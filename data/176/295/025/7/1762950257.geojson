@@ -40,6 +40,7 @@
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
     "wof:hierarchy": [
       {
+        "custom_id": 1762950257,
         "flight_id": 1762950257
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1644077403,
+    "wof:lastmodified": 1717038473,
     "wof:name": "UA211 (BNA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -54,6 +54,7 @@
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
     "wof:hierarchy": [
       {
+        "custom_id": 1763177455,
         "flight_id": 1763177455
       }
     ],
@@ -64,11 +65,13 @@
       1159289939,
       102531131
     ],
-    "wof:lastmodified": 1646151932,
+    "wof:lastmodified": 1717038485,
     "wof:name": "DL8926 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-02",
     "wof:superseded_by": [],
     "wof:supersedes": []
